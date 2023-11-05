@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 # Load your dataset (replace 'your_dataset.csv' with the actual file path)
-df = pd.read_csv('data.csv', delimiter='\t')
+df = pd.read_csv('../BCI-CAR-Fall-23/data.csv', delimiter='\t')
 
 summary_stats = df.iloc[:,0].describe()
 print(summary_stats)
