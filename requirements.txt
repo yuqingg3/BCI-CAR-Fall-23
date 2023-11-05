@@ -1,6 +1,4 @@
-pandas
 numpy
+pandas
 scipy
-sklearn.model_selection
-sklearn.metrics
-sklearn.neighbors
+scikit-learn
